@@ -8,6 +8,10 @@ Quick and dirty PowerShell script to disable the late 2024 feature that allows u
  * Local machine admin rights
  * Global Admin rights on the target MS365 tenant
 
+## Usage
+
+Right click the file and click "Run with PowerShell".
+
 ## FAQ
 
 **Q:** Is this safe to run?
@@ -37,9 +41,3 @@ Quick and dirty PowerShell script to disable the late 2024 feature that allows u
 **Q:** How long will you support these scripts?
 
 **A:** As long as I can tolerate Windows 10 and 11. I've been migrating my data and default applications to things that I can use on any OS and will be shifting to some flavor of Linux hopefully by the end of 2022. That said, I'll still support Windows 10 in my occupation and I'll carry on dealing with it there.
-
-## Usage
-
-Right click the file and click "Run with PowerShell". If it's the system one, it'll ask you to provide admin rights to elevate.
-
-If you want to use it in startup scripts or group policy deployment, you're on your own.
